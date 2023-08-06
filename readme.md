@@ -1,7 +1,6 @@
 # Wallet API 🏦
 
-## [Live API Documentation](https://walletapp-uvvc.onrender.com/api-docs/) 📝
-
+## [Live API Documentation](https://walletapp-vzv4.onrender.com/api-docs/) 📝
 
 ## Overview 📝
 
@@ -31,11 +30,10 @@ income, expenses, and totals per category.
 - 🔒 **GET /transactions/categories/{month}/{year}**: Get totals and sum per category for given
   month/year
 
-**Authentication** 🔑 
-The API uses JWT tokens for authentication. Register and login endpoints
+**Authentication** 🔑 The API uses JWT tokens for authentication. Register and login endpoints
 provide new tokens. Provide the Bearer token in the Authorization header to authenticate requests.
 
-**Error Handling** 
+**Error Handling**
 
 - ❌ Validation errors return 400 with a ValidationError response.
 - ❌ Unauthorized requests return 401 status.

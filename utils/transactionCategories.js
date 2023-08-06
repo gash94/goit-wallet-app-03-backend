@@ -1,8 +1,4 @@
 const categories = [
-  // {
-  //   name: 'Income',
-  //   color: '#B7E095',
-  // },
   {
     name: 'Main expenses',
     color: '#FED057',
